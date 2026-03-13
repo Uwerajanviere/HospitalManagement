@@ -1,5 +1,7 @@
 package com.hms.model;
 
+import java.time.LocalDateTime;
+
 public class Doctor {
     private int id;
     private String firstName;
@@ -7,6 +9,9 @@ public class Doctor {
     private String specialty;
     private String phoneNumber;
     private String email;
+
+    public Doctor(String mary, String smith, String pediatrics, String number, String mail) {
+    }
 
 
     public int getId() { return id; }
@@ -21,4 +26,8 @@ public class Doctor {
     public void setPhoneNumber(String phoneNumber) { this.phoneNumber = phoneNumber; }
     public String getEmail() { return email; }
     public void setEmail(String email) { this.email = email; }
+
+    public void setCreatedAt(LocalDateTime createdAt) {
+
+    }
 }

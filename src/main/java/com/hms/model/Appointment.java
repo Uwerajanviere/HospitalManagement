@@ -9,6 +9,9 @@ public class Appointment {
     private LocalDateTime appointmentDate;
     private String status;
 
+    public Appointment(int i, int i1, LocalDateTime of, String scheduled) {
+    }
+
     public int getId() { return id; }
     public void setId(int id) { this.id = id; }
     public int getDoctorId() { return doctorId; }
